@@ -1,6 +1,6 @@
-## Simple Django project with Celery, RabbitMQ, Flower and Postgres
+## Simple Django REST API template with Postgres
 
-Example of implementations a simple Django app with Postgress DB.
+Example of implementations a simple Django REST API with Postgress DB, Knox tokens, basic permissions, pagination and throttles.
 
 ## Docker-compose configuration
 
@@ -15,4 +15,5 @@ Example of implementations a simple Django app with Postgress DB.
 4. convert .envexample to .env and update your data
 5. Run `docker compose build`
 6. Run `docker compose up`
-7. Open http://0.0.0.0:8888 in your browser to see the Swagger UI
+7. Migrations
+8. Open http://0.0.0.0:8888 in your browser to see the Swagger UI
